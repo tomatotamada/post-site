@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    font-family: Quichsand,游ゴシック体, YuGothic, 'ヒラギノ角ゴシック Pro',メイリオ, Meiryo,'ＭＳ Ｐゴシック', sans-serif;
+}
+
+.honbun {
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.post-all{
+    width: 50%;
+    margin: 30px auto;
+    padding: 50px;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+.label{
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.newpost{
+    border-top: 1px solid;
+    margin: 40px auto;
+    max-width: 975px;
+}
+
+.postarea{
+    width: 100%;
+    margin: 30px auto;
+}
+
+textarea {
+    width: 40%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    align: left;
+  }
+
+  input[type="text"] {
+    width: 15%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    align: left;
+  }
